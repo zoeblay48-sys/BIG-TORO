@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIG-TORO - Travel and Tours Platform</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/three@r128/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@r128/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1>✈️ BIG-TORO</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="/admin.html" class="admin-link">Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section with 3D Plane -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Your Next Adventure Awaits</h2>
+        <p>Explore stunning destinations with interactive 3D visualization</p>
+      </div>
+      <div id="plane-display" class="plane-display"></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div id="services-container" class="services-grid">
+        <!-- Services loaded dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 BIG-TORO Travel and Tours. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

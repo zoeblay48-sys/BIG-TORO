@@ -6,3 +6,10 @@ node_modules/
 .DS_Store
 dist/
 build/
+.next/
+out/
+.env.production.local
+.cache/
+*.pid
+*.seed
+*.pid.lock
